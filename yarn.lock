@@ -7572,6 +7572,18 @@ mkdirp@^1.0.3, mkdirp@^1.0.4:
   resolved "https://r.cnpmjs.org/mkdirp/download/mkdirp-1.0.4.tgz#3eb5ed62622756d79a5f0e2a221dfebad75c2f7e"
   integrity sha1-PrXtYmInVteaXw4qIh3+utdcL34=
 
+mobx-react-lite@^3.2.0:
+  version "3.2.0"
+  resolved "https://r.cnpmjs.org/mobx-react-lite/download/mobx-react-lite-3.2.0.tgz#331d7365a6b053378dfe9c087315b4e41c5df69f"
+  integrity sha1-Mx1zZaawUzeN/pwIcxW05Bxd9p8=
+
+mobx-react@^7.2.0:
+  version "7.2.0"
+  resolved "https://r.cnpmjs.org/mobx-react/download/mobx-react-7.2.0.tgz#241e925e963bb83a31d269f65f9f379e37ecbaeb"
+  integrity sha1-JB6SXpY7uDox0mn2X583njfsuus=
+  dependencies:
+    mobx-react-lite "^3.2.0"
+
 modern-normalize@^1.1.0:
   version "1.1.0"
   resolved "https://r.cnpmjs.org/modern-normalize/download/modern-normalize-1.1.0.tgz#da8e80140d9221426bd4f725c6e11283d34f90b7"

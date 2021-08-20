@@ -2,20 +2,19 @@ import React from 'react'
 import { buttonSchema, Button } from './button'
 import { textSchema, Text } from './text'
 
-export interface Style {
-    top: number;
-    left: number;
-}
 export interface MaterialSchema {
     uuid: string;
     material: string;
     value: string;
-    style: Style;
+    style: {
+        top: number;
+        left: number;
+    };
     className: Object;
 }
 
 export interface Props {
-    schema: MaterialSchema
+    schema: MaterialSchema;
 }
 
 export const materialSchemas: MaterialSchema[] = [
@@ -27,7 +26,7 @@ export const materialSchemas: MaterialSchema[] = [
 
 
 interface Material {
-    [key: string] : React.FC<Props>
+    [key: string] : React.FC<any>
 }
 export const materials: Material = {
     Button,

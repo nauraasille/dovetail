@@ -9,7 +9,7 @@ const buttonSchema: MaterialSchema = {
         left: 0,
     },
     className: {
-        position: 'absolute',
+        position: '',
         text: {
             size: 'text-sm',
             color: 'text-white'
